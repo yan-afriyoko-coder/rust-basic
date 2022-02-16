@@ -10,5 +10,5 @@ impl ToString for Person{
 }
 fn main(){
     let dom = Person {name: String::from("Yan"),age:21};
-    println!("{}",dom.token)
+    println!("{}",dom.name)
 }
